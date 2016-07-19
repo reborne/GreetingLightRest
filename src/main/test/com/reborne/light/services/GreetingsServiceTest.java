@@ -13,12 +13,12 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.reborne.light.AbstractTest;
+import com.reborne.light.AbstractTestConfig;
 import com.reborne.light.model.Greeting;
 import com.reborne.light.service.GreetingService;
 
 @Transactional
-public class GreetingsServiceTest extends AbstractTest {
+public class GreetingsServiceTest extends AbstractTestConfig {
 	
 	@Autowired
 	private GreetingService greetingService;
