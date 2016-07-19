@@ -24,6 +24,6 @@ public class GreetingLightRestApp
     public CacheManager cacheManager() {
     	ConcurrentMapCacheManager cacheManager =
     			new ConcurrentMapCacheManager("greetings");
-    	return cacheManager();
+    	return cacheManager;
     }
 }
