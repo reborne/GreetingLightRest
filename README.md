@@ -1,6 +1,7 @@
 # GreetingLightRest
 Simple REST API Spring Boot Application
 
+##Overall:
 This Application demonstrates how REST API works using Database Connectivity (Spring Data)
 <br>Unit Tests are included.
 
@@ -20,11 +21,11 @@ This Application demonstrates how REST API works using Database Connectivity (Sp
 
 #How to execute application
 <ol>
-<li>Clone project (green button "Download or Clone" Project)</li>
+<li>Clone project (green button "Clone or Download")</li>
 <li>Extract to location by your will (e.g Desktop)</li>
 <li>Open terminal and move to location where project located</li>
 <li>run <code>mvn spring-boot:run</code></li>
-<li>open browser and go to http://localhost:8080/api/greetings</li>
+<li>open browser and go <a href="http://localhost:8080/api/greetings">here</a> (http://localhost:8080/api/greetings) to see final result</li>
 </ol>
 
 <b>Note: </b>If everything done correctly, then the line with 2 id's will be return by service<br>
