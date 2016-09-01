@@ -8,8 +8,8 @@ This Application demonstrates how REST API works using Database Connectivity (Sp
 #Project contents:
 <ol>
 <li>Spring Boot - Base of application that maintain application runtime</li>
-<li>Spring Data - Module that allows to persist (save objects) to database (h2 in this scope)</li>
-<li>H2 Database - Database that performs serialization/deserialization during in-memory execution</li>
+<li>Spring Data - Module that allows to persist (save objects) to database (HSQLDB in this scope)</li>
+<li>HSQLDB Database - Database that performs serialization/deserialization during in-memory execution</li>
 </ol>
 
 #Project requirements: 
